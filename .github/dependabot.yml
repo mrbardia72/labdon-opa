@@ -1,6 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: gomod
-    directory: /
+  - package-ecosystem: "gomod"
+    directories:
+      - "/"
     schedule:
-      interval: daily
+      interval: "daily"
+    groups:
+      testcontainers-go:
+        patterns:
+          - "github.com/testcontainers/testcontainers-go"
+          - "github.com/testcontainers/testcontainers-go/modules/*"
