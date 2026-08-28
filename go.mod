@@ -1,4 +1,4 @@
-module rego360
+module github.com/mrbardia72/labdon-opa
 
 go 1.27.0
 
