@@ -2,7 +2,7 @@ module github.com/mrbardia72/labdon-opa
 
 go 1.27.0
 
-require github.com/open-policy-agent/opa v1.20.0
+require github.com/open-policy-agent/opa v1.20.1
 
 require (
 	github.com/agnivade/levenshtein v1.2.1 // indirect
